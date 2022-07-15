@@ -1,0 +1,48 @@
+.appoinment-wrapper{
+	display: flex;
+	margin-top: 50px;
+}
+.appoinment-title{
+	padding-top: 65px;
+	padding-left: 30px;
+}
+.appoinment-sub{
+	text-transform: uppercase;
+	font-size: 17px;
+}
+.nurse{
+	max-width: 830px;
+	max-height: 560px;
+}
+form{
+	padding-left: 37px;
+	padding-top: 35px;
+}
+input{
+	display: block;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 300;
+	padding-bottom: 33px;
+}
+select{
+	display: block;
+}
+.button-submit{
+	display: block;
+	margin-left: 27px;
+	margin-top: -10px;
+	background-color: #0078aa;
+	padding: 13px 23px;
+	border-radius: 10px;
+	border: 1px solid #0078aa;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+}
+.button-submit:hover{
+        background-color: #fff;
+        cursor: pointer;
+        color: #0078aa;
+        border: 1px solid #0078aa;
+} 

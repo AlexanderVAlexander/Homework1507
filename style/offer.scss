@@ -1,0 +1,112 @@
+.offer{
+	background-image: url(../img/pricingbg.jpg) ;
+    background-size: cover;
+    background-position: 0 -20px;
+}
+.offers-wrapper{
+    max-width:1280px;
+    margin: 0 auto;
+}
+.offers-title{
+    text-align: center;
+    padding-top: 90px;
+    line-height: 20px;
+}
+.offers-sub{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.offers-columns{
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 30px;
+}
+.offers-column{
+    text-align: center;
+    border: 1px solid #47c9e5;
+    background-color: #47c9e5;
+    height: 553px;
+    width: 389px;
+    position:relative;
+    top: 30px;
+}
+.column-title{
+    padding-top: 45px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.column-price{
+    font-size: 66px;
+    font-weight: 700; 
+    color: #fff;
+}
+.column-list{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+.list-title{
+   color: #fff; 
+   font-size: 20px;
+   font-weight: 300;
+   font-style: italic;
+}
+.column-list-item{
+    padding-top: 29px;
+}
+.offers-button{
+    margin-top: 41px;
+}
+.column-button{
+    border: 1px solid #0078aa;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0078aa;
+    padding: 12px 22px;
+}
+.column-button:hover{
+        background-color: #0078aa;
+        cursor: pointer;
+        color: #fff;
+} 
+.offers-column-middle{
+    text-align: center;
+    border: 1px solid #0078aa;
+    height: 612px;
+    width: 390px;
+}
+.column-title-middle{
+    padding-top: 75px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0078aa;
+}
+.column-price-middle{
+    font-size: 66px;
+    font-weight: 700; 
+    color: #0078aa;
+}
+.list-middle-title{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+.column-list-middle{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #0078aa;
+}
+.column-list-item:nth-last-child(5){
+    margin-top: -15px;
+}
+.offers-button-middle{
+    margin-top: 41px;
+}

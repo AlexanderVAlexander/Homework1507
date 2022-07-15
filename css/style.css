@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700;800&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet');
+/*nullstyle*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+.paige-button {
+  width: 50px;
+  height: 50px;
+  background-color: #0078aa;
+  border: 1px solid #0078aa;
+  border-radius: 50%;
+  position: sticky;
+  top: 680px;
+  left: 1448px;
+}
+
+.paige-button:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.arrow {
+  padding-left: 8px;
+  padding-top: 5px;
+}
+
+header {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+}
+
+.logo-img {
+  padding: 15px 0 0 55px;
+  margin-bottom: 15px;
+}
+
+.nav-list {
+  padding-top: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 53px;
+}
+.nav-list :hover {
+  color: #47c9e5;
+}
+
+.item-link {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-right: 22px;
+  font-weight: 600;
+  color: #000;
+}
+
+.item-link-last {
+  margin-right: 2px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.doc {
+  background-image: url(../img/lady.jpg);
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.doc-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.doc-text {
+  padding-top: 197px;
+  padding-left: 57px;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  line-height: 50px;
+}
+
+.sub {
+  font-size: 20px;
+  max-width: 500px;
+  color: #999999;
+  padding-bottom: 20px;
+}
+
+.doc-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 57px;
+}
+.doc-buttons :hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.doc-button {
+  width: 50px;
+  height: 50px;
+  background-color: #0078aa;
+  border: 1px solid #0078aa;
+  border-radius: 50%;
+  margin-right: 25px;
+  margin-bottom: 130px;
+}
+
+.heart {
+  padding-left: 7px;
+  padding-top: 8px;
+}
+
+.first-aid-kit {
+  padding-left: 7px;
+  padding-top: 6px;
+}
+
+.stethoscope {
+  padding-left: 8px;
+  padding-top: 7px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.about-text {
+  padding-top: 75px;
+  padding-left: 30px;
+  max-width: 500px;
+  padding-bottom: 80px;
+}
+
+h2 {
+  font-size: 38px;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+
+.about-sub {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #0095d7;
+}
+
+.about-blocks {
+  padding-top: 20px;
+}
+
+.about-block {
+  font-size: 18px;
+  max-width: 400px;
+}
+
+.about-block-title {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
+.about-block-text {
+  padding-bottom: 16px;
+}
+
+.tools {
+  width: 760px;
+}
+
+.arrow-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.arrow-right {
+  height: 15px;
+}
+
+.help {
+  background-image: url(../img/services_bg.jpg);
+  background-size: cover;
+}
+
+.help-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.help-title {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.help-sub {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.row-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 55px;
+  margin-bottom: 25px;
+}
+
+.row-first-card {
+  width: 370px;
+  height: 240px;
+  background-color: #fff;
+  margin-right: 30px;
+}
+
+.row-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 55px;
+  padding-bottom: 60px;
+}
+
+.row-second-card {
+  width: 370px;
+  height: 240px;
+  background-color: #fff;
+  margin-right: 30px;
+}
+
+.card-images {
+  padding: 25px 25px 18px 25px;
+}
+
+.card-text {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.card-text-title {
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.card-description {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #999999;
+}
+
+.offer {
+  background-image: url(../img/pricingbg.jpg);
+  background-size: cover;
+  background-position: 0 -20px;
+}
+
+.offers-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.offers-title {
+  text-align: center;
+  padding-top: 90px;
+  line-height: 20px;
+}
+
+.offers-sub {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.offers-columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 48px;
+  padding-bottom: 30px;
+}
+
+.offers-column {
+  text-align: center;
+  border: 1px solid #47c9e5;
+  background-color: #47c9e5;
+  height: 553px;
+  width: 389px;
+  position: relative;
+  top: 30px;
+}
+
+.column-title {
+  padding-top: 45px;
+  padding-bottom: 25px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.column-price {
+  font-size: 66px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.column-list {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.list-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.column-list-item {
+  padding-top: 29px;
+}
+
+.offers-button {
+  margin-top: 41px;
+}
+
+.column-button {
+  border: 1px solid #0078aa;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0078aa;
+  padding: 12px 22px;
+}
+
+.column-button:hover {
+  background-color: #0078aa;
+  cursor: pointer;
+  color: #fff;
+}
+
+.offers-column-middle {
+  text-align: center;
+  border: 1px solid #0078aa;
+  height: 612px;
+  width: 390px;
+}
+
+.column-title-middle {
+  padding-top: 75px;
+  padding-bottom: 25px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #0078aa;
+}
+
+.column-price-middle {
+  font-size: 66px;
+  font-weight: 700;
+  color: #0078aa;
+}
+
+.list-middle-title {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.column-list-middle {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #0078aa;
+}
+
+.column-list-item:nth-last-child(5) {
+  margin-top: -15px;
+}
+
+.offers-button-middle {
+  margin-top: 41px;
+}
+
+.appoinment-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.appoinment-title {
+  padding-top: 65px;
+  padding-left: 30px;
+}
+
+.appoinment-sub {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.nurse {
+  max-width: 830px;
+  max-height: 560px;
+}
+
+form {
+  padding-left: 37px;
+  padding-top: 35px;
+}
+
+input {
+  display: block;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  padding-bottom: 33px;
+}
+
+select {
+  display: block;
+}
+
+.button-submit {
+  display: block;
+  margin-left: 27px;
+  margin-top: -10px;
+  background-color: #0078aa;
+  padding: 13px 23px;
+  border-radius: 10px;
+  border: 1px solid #0078aa;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button-submit:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #0078aa;
+  border: 1px solid #0078aa;
+}
+
+footer {
+  background-color: #363636;
+}
+
+.footer-text {
+  padding: 21px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .doc-wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .doc {
+    background-image: url(../img/lady.jpg);
+    background-position: -270px 0;
+    background-size: cover;
+  }
+
+  .doc-text {
+    padding-left: 20px;
+  }
+
+  .doc-buttons {
+    padding-left: 20px;
+  }
+
+  .about {
+    margin-top: 0px;
+  }
+
+  .about-text {
+    padding-top: 20px;
+  }
+
+  .about-block {
+    font-size: 18px;
+    max-width: 300px;
+  }
+
+  .tools {
+    padding-top: 100px;
+    width: 360px;
+  }
+
+  .row-first-card {
+    height: 260px;
+  }
+
+  .row-second-card {
+    height: 260px;
+  }
+
+  .offer {
+    background-image: url(../img/pricingbg.jpg);
+    background-position: -250px 0px;
+    background-size: 1200px 800px;
+  }
+
+  .offers-column {
+    height: 553px;
+    width: 230px;
+  }
+
+  .offers-column-middle {
+    width: 230px;
+  }
+
+  .appoinment-card {
+    position: relative;
+    left: -350px;
+    background-color: #fff;
+  }
+
+  .nurse {
+    max-width: 700px;
+    height: 560px;
+    position: relative;
+    left: -50px;
+  }
+
+  .paige-button {
+    position: sticky;
+    top: 630px;
+    left: 1448px;
+    z-index: 99;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .header-wrapper {
+    display: block;
+    background-color: #fff;
+    position: relative;
+    left: 15px;
+  }
+
+  .logo-img {
+    position: relative;
+    left: 120px;
+  }
+
+  .doc-wrapper {
+    margin-left: 45px;
+  }
+
+  .doc {
+    background-image: url(../img/lady.jpg);
+    background-position: -210px 0;
+  }
+
+  .doc-text {
+    padding-top: 120px;
+    padding-left: 15px;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .doc-buttons {
+    padding-left: 20px;
+  }
+
+  .doc-button {
+    margin-right: 60px;
+    margin-bottom: 10px;
+  }
+
+  .about {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .about-block-title {
+    text-align: center;
+  }
+
+  .about-text {
+    padding-top: 10px;
+    padding-left: 10px;
+    max-width: 400px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .tools {
+    padding-top: 10px;
+    width: 420px;
+  }
+
+  .row-first {
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+
+  .row-first-card {
+    width: 390px;
+    margin-bottom: 30px;
+  }
+
+  .row-second {
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+
+  .row-second-card {
+    width: 390px;
+    margin-bottom: 30px;
+  }
+
+  .offer {
+    background-image: url(../img/pricingbg.jp);
+  }
+
+  .offers-columns {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+  }
+
+  .offers-column {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .offers-column-middle {
+    margin-top: 65px;
+    padding-bottom: 5px;
+    height: 610px;
+    width: 388px;
+  }
+
+  .appoinment-wrapper {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .nurse {
+    max-width: 400px;
+  }
+
+  .button-submit {
+    position: relative;
+    left: 125px;
+    margin-bottom: 20px;
+  }
+
+  .paige-button {
+    position: sticky;
+    top: 500px;
+    left: 1448px;
+    z-index: 99;
+  }
+}

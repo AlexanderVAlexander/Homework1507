@@ -1,0 +1,46 @@
+.about{
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+.about-text{
+	padding-top: 75px;
+	padding-left: 30px;
+	max-width: 500px;
+	padding-bottom: 80px;
+}
+h2{
+	font-size: 38px;
+	padding-bottom: 8px;
+	font-weight: 700;
+}
+.about-sub{
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #0095d7;
+}
+.about-blocks{
+	padding-top: 20px;
+}
+.about-block{
+	font-size: 18px;
+	max-width: 400px;
+}
+.about-block-title{
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 5px;
+	margin-left: 10px;
+}
+.about-block-text{
+	padding-bottom: 16px;
+}
+.tools{
+	width: 760px;
+}
+.arrow-title{
+	display: flex;
+}
+.arrow-right{
+	height: 15px;;
+}

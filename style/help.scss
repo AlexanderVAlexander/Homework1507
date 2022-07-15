@@ -1,0 +1,58 @@
+.help{
+	background-image: url(../img/services_bg.jpg) ;
+	background-size: cover;
+}
+.help-wrapper{
+    max-width:1280px;
+    margin: 0 auto;
+}
+.help-title{
+	padding-top: 60px;
+	text-align: center;
+}
+.help-sub{
+	text-transform: uppercase;
+	font-size: 17px;
+}
+.row-first{
+	display: flex;
+	margin-top: 20px;
+	margin-left: 55px;
+	margin-bottom: 25px;
+}
+.row-first-card{
+	width: 370px;
+	height: 240px;
+	background-color: #fff;
+	margin-right: 30px;
+}
+.row-second{
+	display: flex;
+	margin-top: 20px;
+	margin-left: 55px;
+	padding-bottom: 60px;
+}
+.row-second-card{
+	width: 370px;
+	height: 240px;
+	background-color: #fff;
+	margin-right: 30px;
+}
+.card-images{
+	padding: 25px 25px 18px 25px;
+}
+.card-text{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.card-text-title{
+	font-weight: 700;
+	font-size: 20px;
+	padding-bottom: 8px;
+}
+.card-description{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 16px;
+	color: #999999;
+}

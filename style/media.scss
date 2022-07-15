@@ -1,0 +1,173 @@
+@media screen and (min-width: 768px) and (max-width: 1280px){
+    .doc-wrapper{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .doc{
+        background-image: url(../img/lady.jpg);
+        background-position: -270px 0;
+        background-size: cover;
+    }
+    .doc-text{
+        padding-left: 20px;
+    }
+    .doc-buttons{
+        padding-left: 20px;
+    }
+    .about{
+        margin-top: 0px;
+    }
+    .about-text{
+        padding-top: 20px;
+    }
+    .about-block{
+        font-size: 18px;
+        max-width: 300px;
+    }
+    .tools{
+        padding-top: 100px;
+        width: 360px;
+    }
+    .row-first-card{
+        height: 260px;
+    }
+    .row-second-card{
+        height: 260px; 
+    }
+    .offer{
+        background-image: url(../img/pricingbg.jpg) ;
+        background-position: -250px 0px;
+        background-size: 1200px 800px;
+    }
+    .offers-column{
+        height: 553px;
+        width: 230px;
+    }
+    .offers-column-middle{
+        width: 230px;
+    }
+    .appoinment-card{
+        position: relative;
+        left: -350px;
+        background-color: #fff;
+    }
+    .nurse{
+        max-width: 700px;
+        height: 560px;
+        position: relative;
+        left: -50px;
+    }
+    .paige-button{
+        position: sticky;
+        top: 630px;
+        left: 1448px;
+        z-index: 99;
+    }
+} 
+@media screen and (min-width: 0px ) and (max-width: 767px){
+    .header-wrapper{
+        display: block;
+        background-color: #fff;
+        position: relative;
+        left: 15px;
+    }
+    .logo-img{
+        position:relative;
+        left: 120px;
+    }
+    .doc-wrapper{
+        margin-left: 45px;
+    }
+    .doc{
+        background-image: url(../img/lady.jpg);
+        background-position: -210px 0;
+    }
+    .doc-text{
+        padding-top: 120px;
+        padding-left: 15px;
+        max-width: 300px;
+        text-align: center;
+    }
+    .doc-buttons{
+        padding-left: 20px;
+    }
+    .doc-button{
+        margin-right: 60px;
+        margin-bottom: 10px;
+    }
+    .about{
+        display: block;
+        margin-top: 10px;
+    }
+    .about-block-title{
+        text-align: center;
+    }
+    .about-text{
+        padding-top: 10px;
+        padding-left: 10px;
+        max-width: 400px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .tools{
+        padding-top: 10px;
+        width: 420px;
+    }
+    .row-first{
+        display: block;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 25px;
+    }
+    .row-first-card{
+        width: 390px;
+        margin-bottom: 30px;
+    }
+    .row-second{
+        display: block;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 25px;
+    }
+    .row-second-card{
+        width: 390px;
+        margin-bottom: 30px;
+    }
+    .offer{
+            background-image: url(../img/pricingbg.jp) ;
+        }
+    .offers-columns{
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+    }
+    .offers-column{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .offers-column-middle{
+        margin-top: 65px;
+        padding-bottom: 5px;
+        height: 610px;
+        width: 388px;
+    }
+    .appoinment-wrapper{
+        display: block;
+        margin-top: 50px;
+    }
+    .nurse{
+        max-width: 400px;
+    }
+    .button-submit{
+        position: relative;
+        left: 125px;
+        margin-bottom: 20px;
+    }
+    .paige-button{
+        position: sticky;
+        top: 500px;
+        left: 1448px;
+        z-index: 99;
+    }
+}
